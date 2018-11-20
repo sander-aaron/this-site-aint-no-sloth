@@ -1,0 +1,18 @@
+html {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  color: #fff;
+  top: 20px;
+  left: 10px;
+}
+
+p {
+  font-family: Verdana, sans-serif;
+}
+
+.img {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
