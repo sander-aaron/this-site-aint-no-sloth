@@ -2,10 +2,20 @@ html {
   font-family: Georgia, serif;
 }
 
+main {
+  background-color: #fff;
+}
+
 h1 {
   color: #fff;
   top: 20px;
   left: 10px;
+  text-shadow: 2px 2px rgba(28, 14, 0, 1);
+}
+
+.gradient {
+  background-image: linear-gradient(rgba(28, 14, 0, 1), rgba(28, 14, 0, 0));
+  background-size: cover;
 }
 
 p {
@@ -15,4 +25,14 @@ p {
 .img {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+}
+
+@media screen and (min-width: 60em) {
+
+  body {
+    background-image: url("../images/sloth-bg.svg");
+    background-size: 48px;
+    background-color: #bea586;
+  }
+
 }
